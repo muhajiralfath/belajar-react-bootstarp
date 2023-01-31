@@ -19,19 +19,18 @@ const Navigation = () => {
           >
             <Nav.Link href="#action1">Home</Nav.Link>
             <Nav.Link href="#action2">Guru</Nav.Link>
+            <Nav.Link href="#action3">Siswa</Nav.Link>
             <NavDropdown title="Perpustakaan" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
+              <NavDropdown.Item href="#action4">Action</NavDropdown.Item>
+              <NavDropdown.Item href="#action5">
                 Another action
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action5">
+              <NavDropdown.Item href="#action6">
                 Something else here
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#" disabled>
-              Tentang
-            </Nav.Link>
+            <Nav.Link href="#action7">Tentang</Nav.Link>
           </Nav>
           <Form className="d-flex">
             <Form.Control
